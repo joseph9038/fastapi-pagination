@@ -919,13 +919,13 @@ files = [
 
 [[package]]
 name = "iso8601"
-version = "1.1.0"
+version = "2.1.0"
 description = "Simple module to parse ISO 8601 dates"
 optional = true
-python-versions = ">=3.6.2,<4.0"
+python-versions = ">=3.7,<4.0"
 files = [
-    {file = "iso8601-1.1.0-py3-none-any.whl", hash = "sha256:8400e90141bf792bce2634df533dc57e3bee19ea120a87bebcd3da89a58ad73f"},
-    {file = "iso8601-1.1.0.tar.gz", hash = "sha256:32811e7b81deee2063ea6d2e94f8819a86d1f3811e49d23623a41fa832bef03f"},
+    {file = "iso8601-2.1.0-py3-none-any.whl", hash = "sha256:aac4145c4dcb66ad8b648a02830f5e2ff6c24af20f4f482689be402db2429242"},
+    {file = "iso8601-2.1.0.tar.gz", hash = "sha256:6b1d3829ee8921c4301998c909f7829fa9ed3cbdac0d3b16af2d743aed1ba8df"},
 ]
 
 [[package]]
@@ -1664,13 +1664,13 @@ zstd = ["zstandard"]
 
 [[package]]
 name = "pypika-tortoise"
-version = "0.1.6"
+version = "0.3.2"
 description = "Forked from pypika and streamline just for tortoise-orm"
 optional = true
-python-versions = ">=3.7,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
-    {file = "pypika-tortoise-0.1.6.tar.gz", hash = "sha256:d802868f479a708e3263724c7b5719a26ad79399b2a70cea065f4a4cadbebf36"},
-    {file = "pypika_tortoise-0.1.6-py3-none-any.whl", hash = "sha256:2d68bbb7e377673743cff42aa1059f3a80228d411fbcae591e4465e173109fd8"},
+    {file = "pypika_tortoise-0.3.2-py3-none-any.whl", hash = "sha256:c5c52bc4473fe6f3db36cf659340750246ec5dd0f980d04ae7811430e299c3a2"},
+    {file = "pypika_tortoise-0.3.2.tar.gz", hash = "sha256:f5d508e2ef00255e52ec6ac79ef889e10dbab328f218c55cd134c4d02ff9f6f4"},
 ]
 
 [[package]]
@@ -2260,19 +2260,19 @@ files = [
 
 [[package]]
 name = "tortoise-orm"
-version = "0.20.0"
+version = "0.23.0"
 description = "Easy async ORM for python, built with relations in mind"
 optional = true
-python-versions = ">=3.8,<4.0"
+python-versions = "<4.0,>=3.8"
 files = [
-    {file = "tortoise_orm-0.20.0-py3-none-any.whl", hash = "sha256:1891ad935de689ddf002c5c65c864176d28659ab6069e45f0e2cde32359bb8d9"},
-    {file = "tortoise_orm-0.20.0.tar.gz", hash = "sha256:283af584d685dcc58d6cc1da35b9115bb1e41c89075eae2a19c493b39b9b41f7"},
+    {file = "tortoise_orm-0.23.0-py3-none-any.whl", hash = "sha256:deaabed1619ea8aab6213508dff025571a701b7f34ee534473d7bb7661aa9f4f"},
+    {file = "tortoise_orm-0.23.0.tar.gz", hash = "sha256:f25d431ef4fb521a84edad582f4b9c53dccc5abf6cfbc6f228cbece5a13952fa"},
 ]
 
 [package.dependencies]
-aiosqlite = ">=0.16.0,<0.18.0"
-iso8601 = ">=1.0.2,<2.0.0"
-pypika-tortoise = ">=0.1.6,<0.2.0"
+aiosqlite = ">=0.16.0,<0.21.0"
+iso8601 = ">=2.1.0,<3.0.0"
+pypika-tortoise = ">=0.3.2,<0.4.0"
 pytz = "*"
 
 [package.extras]
@@ -2450,4 +2450,4 @@ tortoise = ["tortoise-orm"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8,<4.0"
-content-hash = "05748cc27a0670e3f8c834c6e0767f7747b28867daec3f964fe5133b44ff067f"
+content-hash = "ba2a660c4f593d22248aa8000eb2945269ce926aa9aad5cc465e8daaa7e7eed5"
